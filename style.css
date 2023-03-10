@@ -1,0 +1,182 @@
+/* styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: white;
+  } 
+  
+  header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  hr {
+    height: 10px;
+    background-image: url("cloud.image");
+    background-repeat: no-repeat;
+    border: none;
+    background-position: 0px -310px;
+    margin: 0;
+  }
+
+
+
+  header img {
+    border-radius: 50%;
+    max-width: 200px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  section {
+    margin: 2rem 0;
+  }
+  
+  section h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  li span {
+    font-weight: bold;
+  }
+  
+  /* styles spécifiques */
+  #identite {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+  }
+  
+  #identite li {
+    display: inline-block;
+    margin-right: 2rem;
+  }
+  
+  #identite span
+
+  /* styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  header {
+    background-image: url("bck.jpg");
+    }
+
+  body {
+      background-image: url("bridge.jpg");
+      background-size: cover;
+      }
+  
+  header {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  header img {
+    border-radius: 50%;
+    max-width: 200px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  section {
+    margin: 2rem 0;
+  }
+  
+  section h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  li span {
+    font-weight: bold;
+  }
+  
+  /* styles spécifiques */
+  #identite {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+  }
+  
+  #identite li {
+    display: inline-block;
+    margin-right: 2rem;
+  }
+  
+  #identite span {
+    font-size: 1.2rem;
+  }
+  
+  #quete ul {
+    font-style: italic;
+  }
+  
+  #environnement ul {
+    font-style: italic;
+  }
+  
+  #moi ul {
+    font-style: italic;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  @media screen and (max-width: 600px) {
+    header img {
+      max-width: 150px;
+    }
+    
+    section h2 {
+      font-size: 1.2rem;
+    }
+    
+    li span {
+      font-size: 1.2rem;
+    }
+    
+    footer p {
+      font-size: 0.8rem;
+    }
+  }
+  
+  
